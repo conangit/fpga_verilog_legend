@@ -35,7 +35,7 @@ full_adder F0 (
     
 endmodule
 /*******************************************/
-//4bit位宽流水加法器
+//4bit位宽流水线加法器
 module adder_4bits_pipeline (
     input [3:0] a,
     input [3:0] b,
